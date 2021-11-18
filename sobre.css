@@ -1,0 +1,118 @@
+/*Conteúdo*/
+#conteudo {
+    position: relative;
+    margin: 15vh;
+}
+
+#box {
+    position: relative;
+    min-height: 100vh;
+}
+
+#conteudo-sobre-nos {
+    height: 5wh;
+    width: 100%;
+    max-width: 980px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.conteudo-titulo {
+    color: #25FF89;
+    font-size: 40px;
+}
+
+#conteudo-sobre-nos p {
+    height: 5wh;
+    position:relative;
+    color: white;
+    font-size: 20px;
+}
+/* FIM */
+/*
+*
+*
+*
+*
+*
+*
+*/
+/*Membro com foto a esquerda*/
+.membro-esquerda {
+    margin-top: 100px;
+    width: 84.5vw;
+    height: 300px;
+    background-color: #111111;
+}
+
+.membro-esquerda img {
+    
+    float: left; 
+    height: 300px;
+    width: auto; 
+}
+
+.membro-esquerda p {
+    display: contents;
+    position: inherit;
+    float: left;
+    margin-left: 20px;
+    width: 90%;
+    max-width: 500px;
+    color: white;
+}
+/* FIM */
+/*
+*
+*
+*
+*
+*
+*
+*/
+/*Membro com foto a direita*/
+.membro-direita {
+    margin-top: 100px;
+    width: 84.5vw;
+    height: 300px;
+    background-color: #111111;
+}
+
+.membro-direita img {
+    float: right;
+    height: 300px;
+    width: auto;
+}
+
+.membro-direita p {
+    display: contents;
+    position: inherit;
+    float: right;
+    text-align: right;
+    margin-right: 20px;
+    width: 90%;
+    max-width: 500px;
+    color: white;
+}
+
+.membro-direita a {
+    color: white;
+}
+
+.membro-direita a:hover:not(active) {
+    color: grey;
+}
+
+@media (max-width:768px){
+    html{
+        font-size: 50%;
+        
+    }
+    #box{
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
+}
+/* FIM */
