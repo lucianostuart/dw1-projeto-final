@@ -38,13 +38,19 @@
 *
 *
 */
-/*Membro com foto a esquerda*/
+
 .membro-esquerda {
+    display: flex;
+    background-color: #111111;
+}
+
+/*Membro com foto a esquerda*/
+/* .membro-esquerda {
     margin-top: 100px;
     width: 84.5vw;
     height: 300px;
     background-color: #111111;
-}
+} */
 
 .membro-esquerda img {
 
@@ -53,7 +59,7 @@
     width: auto;
 }
 
-.membro-esquerda p {
+/* .membro-esquerda p {
     display: contents;
     position: inherit;
     float: left;
@@ -61,7 +67,7 @@
     width: 90%;
     max-width: 500px;
     color: white;
-}
+} */
 /* FIM */
 /*
 *
@@ -119,6 +125,16 @@
 /**Teste*/
 .informacoes-direita{
     margin-right: 20px;
+  }
+
+  .informacoes-titulo-esquerda{
+      padding-left: 40px;
+      color: white;
+  }
+
+  .informacoes-esquerda{
+      color: white;
+      padding-left: 50px;
   }
 
 /* FIM */
