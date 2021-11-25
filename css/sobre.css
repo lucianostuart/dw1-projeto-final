@@ -42,6 +42,7 @@
 .membro-esquerda {
     display: flex;
     background-color: #111111;
+    margin-top: 100px;
 }
 
 /*Membro com foto a esquerda*/
@@ -57,6 +58,7 @@
     float: left;
     height: 300px;
     width: auto;
+
 }
 
 /* .membro-esquerda p {
@@ -83,6 +85,7 @@
     width: 84.5vw;
     height: 300px;
     background-color: #111111;
+    padding-left: 50px;
 }
 
 .membro-direita img {
@@ -91,16 +94,6 @@
     width: auto;
 }
 
-.membro-direita p {
-    display: contents;
-    position: inherit;
-    float: right;
-    text-align: right;
-    margin-right: 20px;
-    width: 90%;
-    max-width: 500px;
-    color: white;
-}
 
 .membro-direita a {
     color: white;
@@ -123,12 +116,16 @@
 }
 
 /**Teste*/
+.informacoes-titulo-direta{
+  color: white;
+    font-size: 30px;
+}
 .informacoes-direita{
-    margin-right: 20px;
-  }
-
+    color: white;
+}
   .informacoes-titulo-esquerda{
-      padding-left: 40px;
+      font-size: 30px;
+      padding-left: 50px;
       color: white;
   }
 
@@ -138,3 +135,4 @@
   }
 
 /* FIM */
+
