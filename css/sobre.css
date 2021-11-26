@@ -102,15 +102,37 @@
     color: grey;
 }
 
-@media (max-width:768px){
-    html{
-        font-size: 50%;
+@media (max-width:850px){
+    .conteudo-titulo {
+        margin-top: 15%;
+    }
+    #conteudo{
+        margin: 0%;
+    }
+  
+    p{
+        font-size: 20%;
+        padding-right: 10%;
+        width: 80%;
+    }
+    .conteudo-sobre-nos{
+        padding: 0%;
+        margin: 0;
+    }
+    .membro-direita img{
+        width: 20%;
+        height: auto;
+    }
+    .membro-esquerda img{
+        width: 20%;
+        height: auto;
+    }
 
+    .informacoes-titulo-esquerda{
+        font-size: 20%;
+        margin: 10%;
     }
-    #box{
-        margin-left: auto;
-        margin-right: auto;
-    }
+    
 
 }
 
