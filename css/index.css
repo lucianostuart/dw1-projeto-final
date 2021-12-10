@@ -24,5 +24,26 @@ h2 {
 #texto {
     color: white;
     bottom: 30vh;
-    font-size: 24px;   
+    font-size: 24px;  
+    padding-bottom: 10%;
+}
+
+.articulo {
+    padding-top: 10%;
+}
+
+.articulo-titulo {
+    font-family: Rubik One;
+    font-size: 64px;
+    line-height: 79px;
+    line-height: 100%;
+    text-align: left;
+    Vertical-align: Top;
+    color: #25FF89;
+}
+
+.articulo-body {
+    color: white;
+    bottom: 30vh;
+    font-size: 24px; 
 }

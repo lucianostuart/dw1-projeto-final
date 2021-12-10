@@ -96,18 +96,9 @@ footer{
     line-height: 3rem;
 }
 
-.footer-content p{
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
-}
-
 .footer-content img {
-    position: absolute;
-    left: 2%;
-    top: 20%;
-    width: 100px;
+    position: relative;
+    width: 20%;
     height: auto;
 }
 
