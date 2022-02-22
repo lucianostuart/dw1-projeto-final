@@ -1,4 +1,4 @@
-## LGBTQIA+ na politica
+## LGBTQIA+ na politica <<finalizado em 20/12/2021>>
 
 - Lucas Alves
     - Responsividade  
